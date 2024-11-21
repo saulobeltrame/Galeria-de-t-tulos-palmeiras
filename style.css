@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Notable&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    background-color: #dfe7df;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    color: #fcfcfc;
+    background-color: rgb(14, 105, 14);
+    margin: 0%;
+    font-size: 1rem;
+}
+
+main {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #1dc439;
+    background-color: rgb(14, 105, 14);
+    margin: 0%;
+    font-family: "Notable", sans-serif;
+    font-size: 3.3rem;
+    text-shadow: 10px 10px 5px  rgb(3, 67, 14);
+}
+img{
+    margin-bottom: 30px; /* Espaço entre a imagem e o conteúdo abaixo */
+    margin-top: 30px; /* Espaço entre a imagem e o conteúdo acima */ 
+}
+h3 {
+    color: green;
+}
+#explic{
+    font-size: 20px ;
+    background-color:rgb(14, 105, 14);
+    margin: 2%;
+    border-radius:25px;
+    color: whitesmoke;
+    padding: 1%;
+    font-style: oblique;
+    box-shadow:15px 15px 7px #5e7a62; 
+}
+
+.containerBR-LIB,
+.containerCOP-PAU,
+.containerRS-MERC,
+.container-recopa-super,
+.container-camp-inicio,
+.container-cidade-serie,
+.container-inter-estaduais {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    /* Distribui espaço entre os elementos */
+}
+
+.brasileirao,
+.libertadores,
+.copabr,
+.paulist,
+.merc,
+.riosp,
+.recopa,
+.supercopa,
+.copa-camp,
+.torneio-inicio,
+.taça-cidade,
+.serie-b,
+.internacionais,
+.interestaduais,
+.estaduais {
+    width: 45%; /* Garante que cada seção ocupe metade do espaço */
+    border:#1dc439 8px ridge ;
+    border-radius: 2.5rem;
+    box-shadow:15px 15px 8px #5e7a62; 
+}
