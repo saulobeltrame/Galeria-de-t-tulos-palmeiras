@@ -62,7 +62,7 @@ h3 {
 .container-inter-estaduais {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     /* Distribui espaço entre os elementos */
 }
 
@@ -89,9 +89,5 @@ h3 {
 .interestaduais{
     margin-left: 5%;
     margin-right: 5%;
-}
-.internacionais,
-.interestaduais,
-.estaduais {
-    margin-top: 1rem;
+    margin-top: 2%;
 }
